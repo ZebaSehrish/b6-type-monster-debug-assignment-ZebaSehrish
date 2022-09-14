@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="blogs">
+        <h3>
+            1. State differences between local storage and session storage?
+        </h3>
+        <p>Ans: The difference between localStorage and sessionStorage has to do with lifetime and scope: how long the
+            data
+            is saved for and who the data is accessible to. Session storage is destroyed once the user closes the
+            browser
+            whereas, Local storage stores data with no expiration date. The main difference is that while data in local
+            Storage doesn't expire, data in session Storage is cleared when the page session ends. Whenever a document
+            is
+            loaded in a particular tab in the browser, a unique page session gets created and assigned to that
+            particular
+            tab.</p>
+        <br></br>
+        <h3>2. State differences between global scope and block scope?</h3>
+        <p>
+            Ans: In a browser environment, the global scope is controlled by the window object while in Node. js, it's
+            controlled by the global object. Block scopes are what you get when you use if statements, for statements,
+            and
+            the like. The Global scope is a variable that exists inside or outside a block. If a variable is declared
+            outside all functions or curly braces ({}), it exists in the global scope. Block scopes are what you get
+            when
+            you use if statements, for statements, and the like. You can also use them stand-alone with a simple
+            begin-end
+            curly braces {}, not to be confused with empty object literals.
+        </p>
+        <br></br>
+        <h3>3. How does event loop work in js?</h3>
+        <p>
+            Ans: The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+            is
+            empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which
+            effectively runs it. Such an iteration is called a tick in the Event Loop. In a thread, the function at the
+            top
+            of the stack is what's currently running. The event loop is at the bottom of the stack, or at least it's
+            underneath all JavaScript functions, so it only gets to run when all previously running JavaScript functions
+            have returned or thrown.
+        </p>
+        <br></br>
+        <h3>4. How many ways do we get undefined output in javascript?</h3>
+        <p></p>
+    </div>
+
+</body>
+
+</html>
