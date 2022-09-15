@@ -216,6 +216,22 @@ button {
     gap: 10px;
   }
 
+  #question {
+    height: 200px;
+  }
+
+  #display {
+    height: 200px;
+    padding-left: 1rem;
+    font-size: 25px;
+  }
+
+  #result {
+    top: 25%;
+    left: 15%;
+    transform: translate(20%, 20%);
+  }
+
 }
 
 /* smaller device  */
@@ -228,14 +244,28 @@ button {
     flex-direction: column;
   }
 
+  #question {
+    height: 250px;
+  }
+
+  #display {
+    height: 200px;
+    padding-left: 1rem;
+    font-size: 25px;
+  }
+
   #histories {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  #result {
+    top: 25%;
+    left: -10%;
+    transform: translate(20%, 20%);
+  }
 }
 
-
-.blogs {
+#blogs {
   height: auto;
   color: white;
   font-size: 25px;
